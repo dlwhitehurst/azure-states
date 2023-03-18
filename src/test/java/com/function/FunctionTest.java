@@ -30,6 +30,9 @@ public class FunctionTest {
         queryParams.put("state", "NC");
         doReturn(queryParams).when(req).getQueryParameters();
 
+//        State s;
+//        s = new State("North Carolina","NC");
+
         final Optional<String> queryBody = Optional.empty();
         doReturn(queryBody).when(req).getBody();
 
@@ -45,7 +48,7 @@ public class FunctionTest {
         doReturn(Logger.getGlobal()).when(context).getLogger();
 
         // Invoke
-        final HttpResponseMessage ret = new Function().run(req, context);
+        final HttpResponseMessage ret = new Function().dummy(req, context);
 
         // Verify
         assertEquals(ret.getStatus(), HttpStatus.OK);
