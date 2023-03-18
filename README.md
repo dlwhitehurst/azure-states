@@ -47,7 +47,13 @@ be tested thoroughly and those tests may be added here in the future.
 - Yaml (By Redhat)
 
 ## Quickstart
-Clone this repo `git clone https://github.com/dlwhitehurst/azure-states.git`
+Clone this repo `git clone https://github.com/dlwhitehurst/azure-states.git` and change directory into
+`/azure-states`. Open VS Code and File/Open Workspace from File... and this will open the cloned repo.
+
+If all prerequisites and VS Code Extensions are installed, you should be able to `fn+F5` and this will
+start the `Attach Java functions` executable in the Run and Debug area identified by the triangle arrow
+with the bug on the bottom left of the icon on the VS Code task bar commonly on the left vertical popout
+menu.
 
 ## Notes
 The Java SDK/JDK chosen was version 1.8 only because the stub function generated within VS Code used 1.8
