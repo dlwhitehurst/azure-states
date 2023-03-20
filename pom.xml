@@ -14,7 +14,7 @@
         <java.version>1.8</java.version>
         <azure.functions.maven.plugin.version>1.24.0</azure.functions.maven.plugin.version>
         <azure.functions.java.library.version>2.2.0</azure.functions.java.library.version>
-        <functionAppName>states-101010</functionAppName>
+        <functionAppName>dlw-states-001</functionAppName>
     </properties>
 
     <dependencies>
