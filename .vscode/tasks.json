@@ -8,7 +8,7 @@
       "problemMatcher": "$func-java-watch",
       "isBackground": true,
       "options": {
-        "cwd": "${workspaceFolder}/target/azure-functions/states-101010"
+        "cwd": "${workspaceFolder}/target/azure-functions/dlw-states-001"
       },
       "dependsOn": "package (functions)"
     },
