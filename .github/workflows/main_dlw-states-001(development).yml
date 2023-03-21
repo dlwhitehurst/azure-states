@@ -38,6 +38,6 @@ jobs:
         with:
           app-name: 'dlw-states-001'
           slot-name: 'development'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_392c45e025354eda8fc6e4f946076194 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_13C88DED479B4307BF201C3FD22C878A }}
           package: '${{ env.PACKAGE_DIRECTORY }}'
           respect-pom-xml: true
