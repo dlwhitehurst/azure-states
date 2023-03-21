@@ -155,6 +155,6 @@ public class Function {
                 HttpRequestMessage<Optional<String>> request,
             final ExecutionContext context) {
         context.getLogger().info("Java HTTP trigger processed a request.");
-        return request.createResponseBuilder(HttpStatus.OK).body("Version 1.0.1").build();
+        return request.createResponseBuilder(HttpStatus.OK).body("Version 1.0.2").build();
     }    
 }
